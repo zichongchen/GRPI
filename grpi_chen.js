@@ -9,22 +9,10 @@ var polys =
       }
     ] */
     ee.Geometry.MultiPolygon(
-      [[[[-122, 39],
-         [-122, 37],
-         [-120, 37],
-         [-120,39]]],
-         [[[-122, 37],
-         [-122, 35],
-         [-120, 35],
-         [-120,37]]],
-         [[[-120, 39],
-         [-120, 37],
-         [-118, 37],
-         [-118,39]]],
-         [[[-120, 37],
-         [-120, 35],
-         [-118, 35],
-         [-118, 37]]]],null,false);
+      [[[[-180, 80],
+         [-180, -80],
+         [180, -80],
+         [180, 80]]]],null,false);
 
 
 
@@ -53,7 +41,7 @@ function doTropwet(geometry, poly_ind) {
   // scale factors
   var parScale = 16
   var tileScale = 16
-  var resolution = 120
+  var resolution = 30
   
   // switch in case specific missions want to be used
   var expressionCK9 = 1
